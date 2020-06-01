@@ -1,0 +1,30 @@
+:root {
+    --deeppurple: #542344;
+    --nicemint: #53DD6C;
+    --burntsienna: #EE6C4D;
+    --lightblue: #9EADC8;
+    --midblue: #5B618A;
+    --gray5: #8f8f8f;
+    --gray6: #c2c2c2;
+    --gray7: #E0E0E0;
+}
+
+
+/* body universal rules */
+
+
+/* header */
+
+.header-box {
+    width: 100%;
+    height: 100px;
+    background-color: var(--burntsienna);
+}
+
+/* hero  */
+
+.hero-box {
+    width: 100%;
+    height: 450px;
+    background-color: var(--lightblue);
+}
