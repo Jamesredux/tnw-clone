@@ -5,17 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
+   
     <title>Document</title>
 </head>
 <body>
     <header class="header-box">
-
+       
+       <div class="nav-top">
+           <div class="nav-top-links-left">
+               <ul>
+                    <li id="news"><a href=""></a>News</li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">AMAs</a></li>
+                    <li><a href="#">Spaces</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+               </ul>
+           </div>
+           <div class="nav-top-links-right">
+                <ul>
+                    <li><a href="#"></a>About</li>
+                    <li><a href="#"></a>Advertise</li>
+                    <li><a href="#"></a>Jobs</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+           </div>
+       </div>
+ 
     </header>
+    <div id="sticky-header">
+        <div class="sticky-header-left">
+            <div id="logo-box" class="logo-box-hidden">
+                <img src="assets/images/tnw.svg" alt="TNW" width="66" height="16">
+             </div>
+            <div class="sticky-header-links">
+             <ul>
+                <li><a href="#">latest</a></li>
+                <li><a href="#">hard fork</a></li>
+                <li><a href="#">plugged</a></li>
+                <li><a href="#">read me</a></li>
+                <li><a href="#">growth quarter</a></li>
+             </ul>
+            </div>
+        </div>
+        
+        <div class="sticky-header-right">
+            <div class="sticky-header-search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="hamburger-menu">
+                <a href=""><i class="fas fa-bars"></i></a>  
+            </div>
+        </div>
+        
+   </div>
 
 
     <div class="hero-box">
-        
+        hero
     </div>
-    
+
+    <div class="wrapper">
+        <section class="latest">
+            latest
+        </section>
+        <section class="funding">
+            funding
+        </section>
+        <section class="section-links">
+            section
+        </section>
+        <section class="latest-deals">
+            deals
+        </section>
+       
+
+    </div>
+
+    <footer class="footer">
+        footer
+        <div class="footer-links"></div>
+        <div class="footer-legal"></div>
+    </footer>
+
+
+
+    <script>
+        window.onscroll = function() { stickHeader()};
+
+        var header = document.getElementById("sticky-header");
+
+        var sticky = header.offsetTop;
+
+        var logoBox = document.getElementById("logo-box")
+
+        function stickHeader() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky-top");
+                logoBox.classList.remove("logo-box-hidden");
+                logoBox.classList.add("logo-box-visible");
+            } else {
+                header.classList.remove("sticky-top");
+                logoBox.classList.remove("logo-box-visible");
+                logoBox.classList.add("logo-box-hidden");
+            } 
+        }    
+    </script>
+    <script src="https://kit.fontawesome.com/cace2cc9e8.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
