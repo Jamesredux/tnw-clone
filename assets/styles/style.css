@@ -352,7 +352,115 @@ a {
 
 .funding {
     height: 375px;
-    background-color: var(--deeppurple);
+    
+}
+
+.funding-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.funding-container {
+    display: flex;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.funding-item-box {
+    border: 1px solid var(--burntsienna);
+    box-sizing: border-box;
+    padding: 0 5px;
+    flex-basis: 25%;
+    min-height: 60px;
+    
+}
+
+.funding-card-top {
+    position: relative;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.funding-logo {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10.6666666667px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    z-index: 10;
+
+}
+
+.funding-name {
+    background-color: #f42;
+    color: #fff;
+    Padding: 10.6666666667px 16px 10.6666666667px 84px;
+    margin: 0 !important;
+    font-weight: 700;
+    font-size: 18px !important;
+    line-height: 1.5;
+}
+
+.funding-after-deets {
+    padding: 10.6666666667px 16px 10.6666666667px 84px;
+    columns: #000;
+    background: rgba(255, 68, 34, 0.08);
+    margin: 0;
+}
+
+.funding-after-deets h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.funding-after-deets h5 {
+    opacity: .5;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    font-size: 11px;
+}
+
+.funding-tags {
+    background: rgba(255, 68, 34, 0.05);
+    padding: 16px;
+}
+
+.funding-tags a {
+    display: block;
+    /* padding-left: 2em; */
+    position: relative;
+    font-size: 13px;
+    color: #555;
+    margin-right: 1em;
+    line-height: 22px;
+} 
+
+.funding-tags i {
+    width: 16px;
+    height: 16px;
+    opacity: .6;
+}
+
+.funding-details {
+    border-top: 1px solid rgba(255,68,34,.25);
+    background: rgba(255, 68, 34, 0.05);
+    padding: 16px;
+}
+
+
+.funding-details a  {
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555;
+    margin-right: 1em;
+    display: block;
 }
 
 /*  section links */
@@ -402,6 +510,14 @@ footer {
 @media all and ( max-width: 1085px)  {
     .latest-box-item {
         max-width: 33.333333%;
+    }
+
+    .funding-item-box:last-child {
+        display: none;
+    }
+
+    .funding-item-box {
+        flex-basis: 33.333333%;
     }
 
 }
@@ -475,4 +591,10 @@ footer {
         padding-left: 0px;
         max-width: 100%;
     }
+
+    .funding-container {
+        flex-direction: column;
+    }
+
+
 }
