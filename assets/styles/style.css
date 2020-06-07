@@ -486,8 +486,8 @@ a {
 /*  section links */
 
 .section-links {
-    height: 2000px;
-    background-color: var(--midblue);
+    
+    margin-top: 30px;
 }
 
 .section-container {
@@ -499,6 +499,7 @@ a {
 .section-item-box {
     flex: 1 0 33.333333%;
     box-sizing: border-box;
+    padding: 10px;
     min-height: 600px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -517,11 +518,13 @@ a {
 }
 
 .section-pic-box {
-    border: 1px solid green;
+   
     min-height: 310px;
     min-width: 230px;
     max-width: 368px;
     max-height: 276px;
+    margin-top: 15px;
+    
     /* object-fit: contain; */
     /* overflow: hidden; */
     /* margin-bottom: 5px; */
@@ -538,12 +541,93 @@ a {
 
 
 
+
+
+
 .section-pic-text-box {
     color: #fff;
+    padding: 15px;
+}
+
+.section-pic-text-box > * {
+    padding-top: 10px;
+}
+
+.section-flash {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.section-pic-headline {
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-pic-headline a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.section-byline {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .7);
+}
+
+
+.section-2nd-story-box {
+    max-width: 368px;
+    height: 100px;
+    background-color: rgba(255, 68, 34, 0.05);
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 10px; */
+    width: 100%;
+}
+
+.section-secound-story-text {
+    color: #f42;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.section-secound-story-text > * {
+    padding-top: 10px;
+}
+
+.section-secound-story-text .section-pic-headline {
+    font-size: 14px;
+}
+
+
+
+
+.secound-story-thumb {
+
+    
+}
+
+.section-other-links-box {
+    padding: 15px;
 }
 
 .section-other-links-box li {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
     display: block;
+    padding: 10px;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.4);
+    /* list-style: disc outside none; */
+}
+
+.section-other-links-box ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #f42; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+      
 }
 
 
@@ -615,6 +699,11 @@ footer {
         min-width: 230px;
         max-width: 475px;
         max-height: 350px;
+    }
+
+    .section-2nd-story-box {
+        max-width: 475px;
+        
     }
 
 }
@@ -707,6 +796,11 @@ footer {
         
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .section-2nd-story-box {
+        max-width: 100%;
+        
     }
 
 
