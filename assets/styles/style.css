@@ -516,6 +516,60 @@ a {
 .section-headline a:hover {
     color: #000;
 }
+#spb1 {
+    background-image: url('../images/section1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb2 {
+    background-image: url('../images/section2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb3 {
+    background-image: url('../images/section3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#spb4 {
+    background-image: url('../images/section4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb5 {
+    background-image: url('../images/section5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb6 {
+    background-image: url('../images/section6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb7 {
+    background-image: url('../images/section7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#spb8 {
+    background-image: url('../images/section8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 .section-pic-box {
    
@@ -525,19 +579,13 @@ a {
     max-height: 276px;
     margin-top: 15px;
     
-    /* object-fit: contain; */
-    /* overflow: hidden; */
-    /* margin-bottom: 5px; */
-    background-image: url('../images/section1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-
-   
+    justify-content: flex-end; 
 }
+
+
+
 
 
 
@@ -576,12 +624,13 @@ a {
 
 
 .section-2nd-story-box {
+    
     max-width: 368px;
     height: 100px;
     background-color: rgba(255, 68, 34, 0.05);
     display: flex;
     justify-content: space-between;
-    /* margin-right: 10px; */
+    margin-top: 3px;
     width: 100%;
 }
 
@@ -602,13 +651,9 @@ a {
 
 
 
-.secound-story-thumb {
-
-    
-}
-
 .section-other-links-box {
     padding: 15px;
+    padding-left: 3px;
 }
 
 .section-other-links-box li {
@@ -626,7 +671,7 @@ a {
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; 
       
 }
 
@@ -634,8 +679,22 @@ a {
 /* latest deals */
 
 .latest-deals {
-    height: 650px;
-    background-color: #F5BB00;
+   
+}
+
+h3.deals-bottom-line {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+#old-price {
+    text-decoration: line-through;
+    color: gray;
+    padding-right: 5px;
 }
 
 /* footer */
