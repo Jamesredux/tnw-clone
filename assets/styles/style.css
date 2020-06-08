@@ -700,8 +700,68 @@ h3.deals-bottom-line {
 /* footer */
 
 footer {
-    height: 275px;
-    background-color: #BBDBB4;
+    width: 100%;
+    
+    background-color: #131313;
+}
+
+.social-icons {
+    padding-top: 40px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.social-icon-item {
+    background-color: #333;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links-list {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, .7);
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+.footer-links-list > * {
+    margin: 10px;
+}
+
+.footer-legal {
+    /* position: relative; */
+    background-color: rgba(0,0,0,1);
+    height: 100px;
+    /* bottom: 0; */
+    color: rgba(255, 255, 255, .7);
+    font-size: 10PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer-legal-text {
+    display: flex;
+}
+
+.footer-legal-text a {
+    padding-right: 5px;
+}
+
+#heart {
+    color: red;
+    font-size: 12px;
 }
 
 
