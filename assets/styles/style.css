@@ -40,9 +40,7 @@ a {
 
 .header-box {
     width: 100%;
-    /* height: 100px; */
     background-color: var(--burntsienna);
-    /* position: fixed; */
     top: 0;
 }
 
@@ -55,8 +53,6 @@ a {
     color: rgba(255, 255, 255, 0.6);
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 .nav-top > * {
     padding: 0 20px;
@@ -74,14 +70,12 @@ a {
 #sticky-header {
     height: 78px;
     margin-bottom: 5px;
-   
 }
 
 .sticky-header-top {
     display: flex;
     justify-content: space-between;
     background-color: white;
-
 }
 
 .sticky-header-left {
@@ -100,31 +94,26 @@ a {
  .logo-box-visible {
      width: 106px;
      height: 48px;
-
-    
      background-image: -webkit-gradient(linear, left top, right bottom, from(#d9117a), to(#f74120));
         background-image: -o-linear-gradient(top left, #d9117a, #f74120);
         background-image: linear-gradient(to bottom right, #d9117a, #f74120);
-
  }
 
  .sticky-header-links {
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 14px;
-    
     margin-left: 10px;
-    /* letter-spacing: 0.1rem; */
  }
- .sticky-header-links li {
-     color: rgba(0, 0, 0, 0.6);
-     padding: 0 7px;
+
+.sticky-header-links li {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 7px;
  }
 
  .sticky-header-links li:hover {
      color: rgba(0, 0, 0, 1);
  }
-
 
 /* this is added with js when scrolled */
 
@@ -133,7 +122,7 @@ a {
     top: 0;
     width: 100%;
     z-index: 3;
-  }
+}
 
 .sticky-top + .hero-box {
    padding-top: 100px;
@@ -163,7 +152,6 @@ a {
     font-size: 1.1rem;
     color: #f74120;
     border-left: 1px solid rgba(0, 0, 0, 0.2);
-
 }
 
 .sticky-header-search > i:hover {
@@ -174,8 +162,6 @@ a {
 /* yellow bar */
 
 .yellow-bar {
-    
-
     height: 30px;
     font-size: 12px;
     display: flex;
@@ -196,7 +182,6 @@ a {
     width: 100%;
     min-height: 450px;
     margin-bottom: 10px;
-
 }
 
 
@@ -211,7 +196,6 @@ a {
 }
 
 .cover-article-main {
-    /* background-color: rosybrown; */
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     height: 450px; 
@@ -219,12 +203,9 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 50%;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-
 }
 
 .cover-main-top {
@@ -244,7 +225,6 @@ a {
 }
 
 .main-headline {
-    
     padding: 10px 10px 0px 10px;
     font-size: 2.5rem;
     font-weight: 800;
@@ -294,7 +274,6 @@ a {
     width: 100%; 
     margin-top: 70px;
     padding: 20px;
-    
 }   
 
 .latest-headline {
@@ -335,9 +314,6 @@ a {
 
 }
 
-.latest-pic-container a {
-}
-
 .latest-pic-container img  {
     max-height: 100%;
     max-width: 100%;
@@ -360,10 +336,6 @@ a {
 
 /* funding section */
 
-.funding {
-   
-    
-}
 
 .funding-header {
     display: flex;
@@ -396,7 +368,7 @@ a {
 }
 
 .funding-item-box {
-    border: 1px solid var(--burntsienna);
+    /* border: 1px solid var(--burntsienna); */
     box-sizing: border-box;
     padding: 0 5px;
     flex-basis: 25%;
@@ -420,7 +392,6 @@ a {
     max-height: 60px;
     margin: 10.6666666667px;
     position: absolute;
-    /* top: 0; */
     left: 0;
     z-index: 1;
 
@@ -462,7 +433,6 @@ a {
 
 .funding-tags a {
     display: block;
-    /* padding-left: 2em; */
     position: relative;
     font-size: 13px;
     color: #555;
@@ -518,86 +488,69 @@ a {
     flex: 0 0 33.333333%;
 }
 
-.section-headline {
-
-}
 
 .section-headline a:hover {
     color: #000;
 }
+
 #spb1 {
     background-image: url('../images/section1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb2 {
     background-image: url('../images/section2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb3 {
     background-image: url('../images/section3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
+
 #spb4 {
     background-image: url('../images/section4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb5 {
     background-image: url('../images/section5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb6 {
     background-image: url('../images/section6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb7 {
     background-image: url('../images/section7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 #spb8 {
     background-image: url('../images/section8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .section-pic-box {
-   
     min-height: 310px;
     min-width: 230px;
     max-width: 368px;
     max-height: 276px;
     margin-top: 15px;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-end; 
 }
-
-
-
-
-
-
 
 
 
@@ -622,7 +575,6 @@ a {
 }
 
 .section-pic-headline a:hover {
-    /* text-decoration: underline; */
     border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 
@@ -633,7 +585,6 @@ a {
 
 
 .section-2nd-story-box {
-    
     max-width: 368px;
     height: 100px;
     background-color: rgba(255, 68, 34, 0.05);
@@ -671,7 +622,7 @@ a {
     display: block;
     padding: 10px;
     border-bottom: 1px solid rgba(98, 98, 98, 0.4);
-    /* list-style: disc outside none; */
+
 }
 
 .section-other-links-box ul li::before {
@@ -772,16 +723,13 @@ footer {
 }
 
 .footer-legal {
-    /* position: relative; */
     background-color: rgba(0,0,0,1);
     height: 100px;
-    /* bottom: 0; */
     color: rgba(255, 255, 255, .7);
     font-size: 10PX;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .footer-legal-text {
@@ -916,13 +864,7 @@ footer {
     }
 
     .latest-pic-container {
-        /* height: 75px; */
-        /* width: 75px; */
         display: inline;
-    }
-
-    .latest-pic-container a {
-        /* display: inline; */
     }
 
     .latest-box-item h4 {
@@ -934,25 +876,21 @@ footer {
         flex-direction: column;
     }
 
-
     .section-item-box {
         flex-basis: 100%;
     }
-    
     
     #section-item-box-last {
         flex-basis: 100%;
     }
 
     .section-pic-box {
-        
         max-width: 100%;
         max-height: 100%;
     }
 
     .section-2nd-story-box {
         max-width: 100%;
-        
     }
 
 
